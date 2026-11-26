@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>أسئلة نظام AI Sales Agent</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="position:relative">
+<main class="card">
+<p id="boot" class="boot">جارٍ التحميل...</p>
+  <h1>١٠٠ سؤال عن نظام AI Sales Agent</h1>
+  <p class="fact" id="count"></p>
+  <p class="lead">هذه الأسئلة تساعد محمد على فهم عملك والنظام كاملًا قبل البرمجة. أجب بما تعرفه، واكتب لا أعرف إن لم تكن متأكدًا.</p>
+  <div class="note"><strong>مهم قبل أن تبدأ</strong><br>إجاباتك تُحفظ مؤقتًا في متصفحك على هذا الجهاز فقط حتى تضغط إرسال. لا تكتب كلمات مرور أو مفاتيح API. لا يُرسل شيء قبل أن تضغط زر الإرسال في آخر الصفحة.</div>
+  <nav id="tabs" class="tabs" aria-label="الأقسام"></nav>
+  <section id="sec"></section>
+  <div class="nav">
+    <button type="button" id="prev" class="btn secondary">القسم السابق</button>
+    <button type="button" id="next" class="btn primary">القسم التالي</button>
+  </div>
+  <hr>
+  <h2>إرسال الإجابات إلى محمد</h2>
+  <p class="lead">اضغط إرسال عندما تنتهي أو تكتفي. يمكنك الإرسال مرة ثانية بعد إضافة المزيد، وتحل النسخة الأحدث محل السابقة. إذا فشل الإرسال، انسخ النص وأرسله لمحمد على واتساب.</p>
+  <input id="who" class="area" placeholder="اسمك (اختياري)" aria-label="اسمك" autocomplete="name">
+  <input id="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="nav">
+    <button type="button" id="send" class="btn primary">إرسال الإجابات إلى محمد</button>
+    <button type="button" id="copy" class="btn secondary">نسخ كل الإجابات</button>
+  </div>
+  <p id="status" role="status"></p>
+  <textarea id="export" class="area" rows="8" readonly aria-label="نص الإجابات"></textarea>
+  <p class="foot">لا يُنفَّذ شيء من هذه الصفحة. الإجابات تُرسل فقط عند الضغط على إرسال.</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
